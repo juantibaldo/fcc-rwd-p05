@@ -9,28 +9,31 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <nav id="navbar">
-            <ul>
-                <li><a href="#main-section">Navigate to main</a></li>
-            </ul>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Juan</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
         </nav>
     </header>
-    <main id="main-section">
-        <section id="welcome-section">
-            <h1>Welcome Title</h1>
-        </section>
-        <section id="github-section">
-            <a href="http://github.com/juantibaldo" target="_blank" rel="noopener noreferrer" id="profile-link">Github Link</a>
-        </section>
-        <section id="projects">
-            <div class="project-tile">Project Tile</div>
-            <a href="http://youtube.com" target="_blank" rel="noopener noreferrer">Project Link</a>
-            <div class="project-description">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nihil voluptas quisquam totam cumque incidunt sapiente, ut voluptatum provident distinctio deleniti. Eaque, deleniti non. Nostrum excepturi sed odio quasi impedit!</p>
-            </div>
-        </section>
+    <main class="l-main">
+
     </main>
+    <!-- Scripts -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="assets/js/main.js"></script>
 </body>
